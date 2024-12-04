@@ -74,7 +74,7 @@ public void displayDetails() {
     }
 
     if (getBMI(height,weight) == 0.0) { // เพิ่มเติม ถ้าได้ 0.0 จะแสดงใน display 0.0 คำแนะนำ
-        System.out.println("Patient BMI:" + getBMI(height,weight) + " Example height 160.0 weight 50.0: Invalid height or weight");
+        System.out.println("Patient BMI (kg/m2):" + getBMI(height,weight) + " Example height 160.0 weight 50.0: Invalid height or weight");
 
     }else{ // เลขถูก ก็คำนวน ตามปกติ
         System.out.printf("Patient BMI:%.2f%n",getBMI(height,weight)); // คำสั่ง printf หรือ printformat %.2f%n ทศนิยม 2 ตำแหน่ง
